@@ -1,0 +1,10 @@
+main.main-content {
+    margin: 0px auto;
+    width: clamp(16rem, 90vw, 90rem);
+    background: #ffffffaa;
+    min-height: calc(100vh - 4rem);
+    box-shadow: 10px 6px 10px 0.5rem rgb(155, 155, 155);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 1rem 0.4rem;
+}
