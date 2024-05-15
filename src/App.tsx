@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import RootPage from './pages/rootPage'
 
 
 function App() {
 
   return (
-    <>
-      <div>
-        
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<RootPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
