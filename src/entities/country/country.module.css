@@ -1,0 +1,39 @@
+.country-entity {
+    border-radius: 1rem;
+    box-shadow: 4px 4px 10px 0.2rem rgb(185, 185, 185);
+    border-width: 2px;
+    border-color: #969696aa;
+    border-style: solid;
+    box-sizing: border-box;
+    padding: 1rem 0.4rem;
+    width: clamp(60%, 650px, 100%);
+    background-color: #ffffffaa;
+    transition-property: all;
+    transition-duration: .4s;
+    display: block;
+    color: black;
+    text-decoration-line: none;
+
+    & .country-name {
+        font-size: 30px;
+        display: inline;
+        margin: 0;
+    }
+
+    & .country-flag {
+        font-size: 30px;
+        display: inline;
+    }
+
+    &:hover {
+        box-shadow: 0px 4px 5px 0.1rem rgb(185, 185, 185);
+        background-color: #f0f0f0aa;
+        cursor: pointer;
+    }
+    &:active {
+        box-shadow: 0px 4px 5px 0.1rem rgb(185, 185, 185);
+        background-color: #bdbdbdaa;
+        cursor: pointer;
+        transition: none;
+    }
+}
