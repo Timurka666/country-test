@@ -1,0 +1,15 @@
+.error-message {
+    border-radius: 1rem;
+    border-width: 2px;
+    border-color: #969696aa;
+    border-style: solid;
+    box-sizing: border-box;
+    padding: 1rem 0.4rem;
+    width: clamp(60%, 650px, 100%);
+    background-color: #ffffffaa;
+    transition-property: all;
+    transition-duration: .4s;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 50, 50);
+}

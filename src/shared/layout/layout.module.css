@@ -10,8 +10,5 @@ main.main-content {
     border-style: solid;
     box-sizing: border-box;
     padding: 1rem 0.4rem;
-    display: flex;
-    direction: column;
-    align-items: center;
-    justify-content: center;
+ 
 }

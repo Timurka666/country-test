@@ -1,3 +1,7 @@
+export interface ICountryByName extends ICountry {
+  population: number
+}
+
 export interface ICountry {
     name: IName
     flag: string

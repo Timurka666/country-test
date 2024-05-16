@@ -1,0 +1,17 @@
+.country-section {
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+
+
+    & h2 {
+        font-size: 40px;
+        & span {
+            font-size: 40px;;
+        }
+    }
+
+    & span {
+        font-size: 30px;
+    }
+}
