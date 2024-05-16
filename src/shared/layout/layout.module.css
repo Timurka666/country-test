@@ -1,6 +1,6 @@
 main.main-content {
     margin: 0px auto;
-    width: clamp(16rem, 90vw, 90rem);
+    width: clamp(16rem, 90rem, 90vw);
     background: #ffffffaa;
     min-height: calc(100vh - 4rem);
     box-shadow: 10px 6px 10px 0.3rem rgb(185, 185, 185);
@@ -10,4 +10,8 @@ main.main-content {
     border-style: solid;
     box-sizing: border-box;
     padding: 1rem 0.4rem;
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
 }
